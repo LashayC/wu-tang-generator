@@ -1,22 +1,17 @@
-# 🎤 Week08 Bootcamp2019a Project: Wu-Tang Name Generator
+# Wu Tang Name Generator
+A name generator that gives you a Wu-Tang Clan name
 
-### Goal: Create a Wu-Tang Clan name generator. Present the user with 5 survey questions and based on those answers randomly generate their name. The name doesn't have to be exact names, but Wu-Tang sounding-ish names. Ex: Childish Gambino (who actually got his name from a Wu-Tang name generator).
+**Link to project:** https://wutang-clan-name-generator.netlify.app/
 
-### How to submit your code for review:
+![wu-tang name generator](https://user-images.githubusercontent.com/102004376/168591780-2533e25c-4d25-47ce-bd3e-4859619c6b62.JPG)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## How It's Made:
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+**Tech used:** HTML, CSS, JavaScript, node.js
+
+This was built using node.js on the backend. To start, everything was built on the front end to get the generator up and running. Next, the function moved to the server.js so that a name could be requested and returned. To randomize the names, I used two arrays for the first and last name. Each survey question anwer had a value of 1-3. The value of the first two answers and the last three answers were used to get the index of the arrays.
+
+## Lessons Learned:
+
+I got more comfortable with using node.js on the backend as I worked through this project and learned to read errors on the terminal. I also learned to use scripts to update the server without constantly restarting using scripts and nodemon. 
+
